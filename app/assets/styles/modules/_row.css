@@ -1,7 +1,5 @@
 .row {
 
-    @mixin clearfix;
-
     &--t-padding {
         padding-top: 80px;
     }   
@@ -83,12 +81,10 @@
 &--equal-height-at-medium {
     @mixin atMedium {
         display: flex;
-    }
-
     & > div {
-        float: none;
         display: flex;
     }
+}
 }
 
 &--equal-height-at-large {
