@@ -29,7 +29,7 @@
         position: absolute;
         top: 0;
         left: 50%;
-        transition: transform .3s ease-out;
+        transition: all .3s ease-out;
         transform: translateX(-50%);
         background-color: $mainBlue;
         padding: 13px 29px;
@@ -43,6 +43,10 @@
             .site-header--dark & {
                 transform: scale(.55);
                 transform-origin: 50% 0;
+            }
+
+            &--is-current {
+                background-color: #fabb69;
             }
         }
     }
